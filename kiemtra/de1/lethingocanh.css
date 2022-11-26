@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+menu{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.content{
+    height: 85vh;
+    width: 100%;
+    background-color: brown;
+}
+.header__logo{
+    margin-left: 10px;
+}
+.header__search__input{
+    border: solid 1px brown;
+    outline: none;
+    padding: 5px 5px;
+
+}
+.fa-1x{
+    background-color: #00cc33;
+    padding: 5px;
+    color: white;
+}
+.header__icon{
+    display: flex;
+    margin-right: 10px;
+}
+.fa-bag-shopping{
+    color: white;
+    background-color: red;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.header__icon__text:hover{
+    color: #00cc33;
+    size: 20px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    background-color: #00cc33;
+    width: 100%;
+}
+li{
+    
+    list-style: none;
+    padding: 20px 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu__glass{
+    color: black;
+}
+.menu__cap1:hover{
+    background-color: #008120;
+}
+.cap2{
+    display: block;
+    display: none;
+    /* position: absolute; */
+}
+.cap2:first-child{
+    padding-top: 100px;
+}
+.cap2__list > a{
+    width: 100%;
+    padding-top: 50px;
+}
+.cha__cap2:hover ul{
+    display: block;
+}
+.content__left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
